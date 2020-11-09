@@ -3,35 +3,46 @@
 }
 
 body {
-  padding: 60px;
+  padding: 1%;
 }
 
-input {
-  width: 100%;
-  font-size: 1.2rem;
-  color: grey;
-}
-
-.card-grid {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+.gridApp {
+  padding: 0;
 }
 
 .card {
-  align-content: center;
-  border: 1px solid gray;
-  border-radius: 6px;
-  margin-bottom: 10px;
-  margin-right: 10px;
-  overflow: hidden;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 200px;
+  width: 200px;
 }
 
-.card p {
-  padding: 5px;
-  text-align: center;
+.titleApp {
+  display: flex;
+  justify-content: center;
 }
 
-.card img {
-  max-height: 170px;
+.categorytitle {
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+}
+
+.cardgrid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.cardtitle {
+  background-color: rgba(255, 254, 254, 0.345);
+  display: flex;
+  font-size: 1.4vh!important;
+  font-weight: bold;
+  justify-content: center;
+  margin-top: 0;
+  padding: 2%!important;
 }
